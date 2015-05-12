@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="62" viewBox="0 0 83 62" version="1.1">
+  <title>
+    tick-icon
+  </title>
+  <desc>
+    Created with Sketch.
+  </desc>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Join-event" transform="translate(-1037.000000, -132.000000)" fill="#000000">
+      <g id="done" transform="translate(622.000000, 100.000000)">
+        <path d="M441.13 80.92L421.53 61.54 415 68 441.13 93.85 497.13 38.46 490.6 32 441.13 80.92Z" id="tick-icon"/>
+      </g>
+    </g>
+  </g>
+</svg>

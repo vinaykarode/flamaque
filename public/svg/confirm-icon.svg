@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131" height="131" viewBox="0 0 131 131" version="1.1">
+  <title>
+    confirm-icon
+  </title>
+  <desc>
+    Created with Sketch.
+  </desc>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Events-create-page" transform="translate(-1014.000000, -97.000000)">
+      <g id="confirm-icon" transform="translate(1017.000000, 100.000000)">
+        <path d="M62.5 125C97.02 125 125 97.02 125 62.5 125 27.98 97.02 0 62.5 0 27.98 0 0 27.98 0 62.5 0 97.02 27.98 125 62.5 125Z" id="Oval-2" stroke="#979797" stroke-width="5"/>
+        <path d="M47.13 81.92L27.53 62.54 21 69 47.13 94.85 103.13 39.46 96.6 33 47.13 81.92Z" id="Shape" fill="#000000"/>
+      </g>
+    </g>
+  </g>
+</svg>

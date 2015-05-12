@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="141" height="127" viewBox="0 0 141 127" version="1.1">
+  <title>
+    camera-nocircle-icon-stroke
+  </title>
+  <desc>
+    Created with Sketch.
+  </desc>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Events-create-page" transform="translate(-147.000000, -852.000000)" stroke="#979797" stroke-width="2">
+      <g id="details" transform="translate(75.000000, 853.000000)">
+        <g id="camera-nocircle-icon-stroke" transform="translate(73.000000, 0.000000)">
+          <ellipse id="Oval" cx="69.89" cy="70.83" rx="22.24" ry="22.22"/>
+          <path d="M48.65 0L36.14 13.89 13.9 13.89C6.26 13.89 0 20.14 0 27.78L0 111.11C0 118.75 6.26 125 13.9 125L125.1 125C132.75 125 139 118.75 139 111.11L139 27.78C139 20.14 132.75 13.89 125.1 13.89L102.86 13.89 90.35 0 48.65 0 48.65 0ZM69.5 104.17C50.04 104.17 34.75 88.89 34.75 69.44 34.75 50 50.04 34.72 69.5 34.72 88.96 34.72 104.25 50 104.25 69.44 104.25 88.89 88.96 104.17 69.5 104.17L69.5 104.17Z" id="Shape"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
