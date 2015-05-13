@@ -15,3 +15,8 @@ iron:router
 http
 stylus
 aldeed:collection2
+accounts-facebook
+accounts-ui
+accounts-base
+accounts-password
+service-configuration

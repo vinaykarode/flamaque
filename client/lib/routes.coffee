@@ -1,2 +1,2 @@
 Router.route '/', ->
-  this.render 'appMainView'
+  this.render 'login'
