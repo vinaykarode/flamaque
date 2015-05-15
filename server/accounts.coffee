@@ -9,8 +9,8 @@
 #});
 
 Accounts.validateNewUser (user) ->
-  if user.username and user.username.length >= 3 and user.emails
-    console.log user
+  if user.username and user.username.length >= 3 or user.emails
+    #console.log user
     return true
   else
     console.log user.emails

@@ -11,6 +11,6 @@ Template.login.events
                 if err
                     Session.set 'errorMessage',err.reason
                 else
-                    Router.go '/main'
+                    Router.go '/'
                 return
             false

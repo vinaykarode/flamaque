@@ -11,7 +11,8 @@ Template.footerTemplate.rendered = ->
             s = FView.byId('events')
             console.log {evt}
             s.modifier.setTransform Famous.Transform.translate(-20,0),{duration: 70},=>
-                s.modifier.setTransform Famous.Transform.translate(0,0),{duration: 70}
+                s.modifier.setTransform Famous.Transform.translate(0,0),{duration: 70},=>
+                    Router.go '/'
      
             Meteor.setTimeout ->
               flag = off
@@ -43,7 +44,8 @@ Template.footerTemplate.rendered = ->
             s = FView.byId('profile')
             console.log {evt}
             s.modifier.setTransform Famous.Transform.translate(-20,0),{duration: 70},=>
-                s.modifier.setTransform Famous.Transform.translate(0,0),{duration: 70}
+                s.modifier.setTransform Famous.Transform.translate(0,0),{duration: 70},=>
+                    Router.go '/profile'
      
             Meteor.setTimeout ->
               flag = off
