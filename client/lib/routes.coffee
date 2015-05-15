@@ -6,3 +6,6 @@ Router.route '/main',->
 
 Router.route '/resetPassword', ->
     this.render 'resetPassword'
+
+Router.route '/eventCreate',->
+    this.render 'eventCreateView'

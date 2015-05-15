@@ -1,5 +1,6 @@
 Accounts.onResetPasswordLink (token, done) ->
     Session.set 'resetPasswordToken', token
+    Router.go '/resetPassword'
 
 Template.resetPassword.helpers
     resetPassword: (t)->

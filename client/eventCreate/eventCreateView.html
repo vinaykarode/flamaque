@@ -1,5 +1,5 @@
-<template name="appMainView">
-    {{#famousContext id="mainCtx"}}
+<template name="eventCreateView">
+       {{#famousContext id="mainCtx"}}
     
 <!--        Create a backing surface/background surface, for now this will just be white but we can apply colour themes to this background layer later. Notice this surface has a translate of -20 in z axis, also this background stretches fullscreen with size being 'undefined' -->
            {{#Surface id="backing" size="[undefined,undefined]" class="backing" translate="[0,0,-20]"}}
@@ -7,12 +7,18 @@
                     
            {{#HeaderFooterLayout id="hfl" size="[undefined,undefined]" proportions="[1,1]" align="[0,0]" headerSize="50"}}
            
-                    {{>headerMainView}}
-               
+                    {{>headerEventCreateView}}
                     {{>footerTemplate}}
               
-               {{#Surface target="content" class="content"}}{{/Surface}}
+               {{#Surface target="content" class="content"}}
+<!--
+                   <form>
+                        <input type="text" name="playerName">
+                        <input type="submit" value="Add Player">
+                    </form>
+-->
+               {{/Surface}}
            {{/HeaderFooterLayout}}
                 
-    {{/famousContext}}
+    {{/famousContext}} 
 </template>
