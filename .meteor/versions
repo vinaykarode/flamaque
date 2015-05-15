@@ -17,6 +17,7 @@ check@1.0.5
 coffeescript@1.0.6
 ddp@1.1.0
 deps@1.0.7
+edgee:slingshot@0.6.2
 ejson@1.0.6
 email@1.0.6
 facebook@1.2.0
@@ -36,6 +37,7 @@ iron:middleware-stack@1.0.7
 iron:router@1.0.7
 iron:url@1.0.7
 jag:pince@0.0.6
+jonblum:jquery-cropper@0.9.3
 jquery@1.11.3_2
 json@1.0.3
 launch-screen@1.0.2

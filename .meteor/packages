@@ -20,3 +20,5 @@ accounts-password
 service-configuration
 email
 sacha:spin
+edgee:slingshot
+jonblum:jquery-cropper

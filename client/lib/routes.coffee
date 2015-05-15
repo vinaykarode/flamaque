@@ -1,7 +1,8 @@
 Router.configure
     loadingTemplate: 'loading'
     waitOn: ->
-        Meteor.subscribe 'currentuser'
+        [Meteor.subscribe 'currentuser'
+        Meteor.subscribe 'events',Meteor.userId()]
 
 requireLogin = ->
     if !Meteor.user()
