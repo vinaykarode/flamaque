@@ -12,8 +12,12 @@ requireLogin = ->
 #
 Router.onBeforeAction requireLogin
  
-Router.route '/',->
-    this.render 'appMainView'
+Router.route '/',
+    waitOn: ->
+        Meteor.subscribe 'eventsubscribed', Meteor.userId()
+    data: ->
+        eventsubscriptions: EventSubscribed.find({userId:Meteor.userId()},{sort:{createdAt: -1}})
+    name: 'appMainView'
 
 Router.route '/login', ->
   this.render 'login'

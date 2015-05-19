@@ -30,3 +30,7 @@ font-family: 'Raleway';
 font-weight: ExtraLight;
 }
 
+.contentBorder{
+    border-radius: 5px;
+    border: 1px solid #979797 ;
+}

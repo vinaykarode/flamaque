@@ -1,2 +1,4 @@
-Template.appMainView.rendered = ->
-    
+Template.appMainView.helpers
+#    eventsubscriptions:->
+#        EventSubscribed.find({userId:Meteor.userId()})
+#    

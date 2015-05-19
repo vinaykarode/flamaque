@@ -1,6 +1,7 @@
 Template.profile.helpers
     currentUser: ->
-        Meteor.user().username
+        if Meteor.user()
+            Meteor.user().username
 
 Template.profile.events
     'click #logout': (e) ->

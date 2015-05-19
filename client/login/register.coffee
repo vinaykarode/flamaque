@@ -16,7 +16,7 @@ Template.register.events 'submit #register-form': (e, t) ->
             if err
                 Session.set 'errorMessage',err.reason
             else
-                Router.go '/main'
+                Router.go '/'
             return
         false
 

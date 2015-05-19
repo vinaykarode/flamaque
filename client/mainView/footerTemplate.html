@@ -4,6 +4,7 @@
 <!--               The 3 tabs on the footer-->
                {{#GridLayout target="footer" class="footer" dimensions="[3,1]" size="[undefined,100]" proportions="[1,0.6]" origin='[0,.5]' align='[0,.5]'}}
                         {{#View id="eventsView" size="[undefined,100]" class=""}}
+                          {{#Surface class="footerBacking" translate="[0,0,-1]"}}{{/Surface}}
                           {{#Surface class="footer-border" size="[undefined,undefined]"}}{{/Surface}}
                           
                           {{#Surface id="events" class="centered" align="[0.2,0.5]" origin="[0,0.5]" proportions="[0.6,0.9]"}}
@@ -24,6 +25,7 @@
                         {{/View}}
                         
                         {{#View size="[undefined,100]" class=""}}
+                         {{#Surface class="footerBacking" translate="[0,0,-1]"}}{{/Surface}}
                           {{#Surface class="footer-border" size="[undefined,undefined]"}}{{/Surface}}
                           {{#Surface id="camera" class="centered" align="[0.2,0.5]" origin="[0,0.5]" proportions="[0.6,0.9]"}}
                             <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" viewBox="0 0 139 125" version="1.1">
@@ -44,6 +46,7 @@
                         {{/View}}
                         
                         {{#View size="[undefined,100]" class=""}}
+                         {{#Surface class="footerBacking" translate="[0,0,-1]"}}{{/Surface}}
                           {{#Surface class="footer-border" size="[undefined,undefined]"}}{{/Surface}}
                           {{#Surface id="profile" class="centered" align="[0.2,0.5]" origin="[0,0.5]" proportions="[0.6,0.9]"}}
                             <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" viewBox="0 0 125 125" version="1.1">

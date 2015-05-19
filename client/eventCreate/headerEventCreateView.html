@@ -4,12 +4,12 @@
             {{#Surface class=""}}{{/Surface}}  
 
             {{#Surface class="" size="[undefined,undefined]" proportions="[0.6,0.8]" align="[0.2,0.1]" origin="[0,0.05]"}}
-                <form id="eventCreate">
+                <form id="eventCreate" class="{{toggleEventNameInput 'form'}}">
 <!--
                     <input type="text" name="playerName" id="playerName">
                     <input type="submit" value="Add Player">
 -->
-                    <input id="eventName" name="eventname" type="text" placeholder="Give me a name" value="">
+                    <input id="eventName" name="eventname" type="text" placeholder="Give me a name" value="" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Give me a name'">
 
                   <label class="eventCreateLabel">
                     <input id="eventNameSubmit" type="submit" class="tickIcon">
@@ -28,7 +28,7 @@
                             </svg>          
                 </label>
                 </form>
-                <h2>{{eventName}}hello</h2>
+                <h3 class="event-create-event-name {{toggleEventNameInput 'h3'}}">{{eventName}}</h3>
            {{/Surface}}
         {{/View}}
         

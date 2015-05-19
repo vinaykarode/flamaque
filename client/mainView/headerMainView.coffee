@@ -32,6 +32,7 @@ Template.headerMainView.rendered = ->
             console.log {evt}
             s.modifier.setTransform Famous.Transform.translate(-20,0),{duration: 70},=>
                 s.modifier.setTransform Famous.Transform.translate(0,0),{duration: 70},=>
+                    Session.set 'eventName',''
                     Router.go '/eventCreate'
      
             Meteor.setTimeout ->
