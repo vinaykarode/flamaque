@@ -30,3 +30,13 @@ Router.route '/eventCreate',->
 
 Router.route '/profile', ->
     this.render 'profile'
+
+Router.route '/:_id',
+    name: 'eventCreateView'
+    data: ->
+         oneEvent = Events.findOne (this.params._id)
+         if oneEvent isnt null && oneEvent isnt undefined
+            console.log oneEvent.eventname
+            Session.set 'eventName', oneEvent.eventname
+
+    
