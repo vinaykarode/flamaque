@@ -28,7 +28,11 @@ Template.footerTemplate.rendered = ->
             s = FView.byId('camera')
             console.log {evt}
             s.modifier.setTransform Famous.Transform.translate(-20,0),{duration: 70},=>
-                s.modifier.setTransform Famous.Transform.translate(0,0),{duration: 70}
+                s.modifier.setTransform Famous.Transform.translate(0,0),{duration: 70},=>
+                    if Meteor.isClient
+                      console.log 'Printed in browsers and mobile apps'
+                    if Meteor.isCordova
+                      console.log 'Printed only in mobile cordova apps'
      
             Meteor.setTimeout ->
               flag = off
